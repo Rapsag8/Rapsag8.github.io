@@ -43,8 +43,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  a {
+  flex-direction: column;
+  span {
     color: white;
     text-decoration: none;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  img {
+    width: 100%;
+    position: relative;
   }
 }

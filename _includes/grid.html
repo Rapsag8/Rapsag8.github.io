@@ -1,7 +1,8 @@
 <div class="video-grid">
 {% for video in site.data.videos %}
-  <div class="video-grid-item">
-    <a href="{{ video.url }}">{{ video.name }}</a>
-  </div>
+  <a href="{{ video.url }}" class="video-grid-item">
+    <img src="{{ video.thumbnail }}" alt="" />
+    <span>{{ video.name }}</span>
+  </a>
 {% endfor %}
 </div>
