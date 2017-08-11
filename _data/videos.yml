@@ -1,6 +1,7 @@
 - name: Reel (temp)
   url: https://vimeo.com/173744588
-  
+  home: true
+
 - name: Pandora's Street
   url: https://vimeo.com/173744588
   thumbnail: https://i.vimeocdn.com/video/580279540.webp?mw=2400&mh=1090&q=70

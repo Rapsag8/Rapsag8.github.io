@@ -2,21 +2,31 @@
 ---
 @import '_meyer-reset';
 
+html, body {
+  height: 100%;
+}
 body {
   font-family: 'Lato', sans-serif;
   width: 1170px;
-  margin: 10px auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 header {
+  width: 100%;
   padding: 20px 0;
   text-align: center;
+  a {
+    color: black;
+    text-decoration: none;
+  }
   h1 {
     font-size: 3.6em;
     font-family: 'Lato', serif;
     font-style: bold;
     display: block;
     margin-top: 10px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   nav {
     text-align: center;
@@ -27,32 +37,94 @@ header {
     a {
       font-size: 1.5em;
       padding: 0 15px;
-      color: black;
-      text-decoration: none;
       font-style: italic;
     }
   }
 }
-  
-.video-grid-item {
-  float: left;
-  width: 31%;
-  margin: 1% 1%;
-  height: 200px;
-  background-color: #000;
+
+footer {
+  font-family: 'Cardo', serif;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0 15px;
+  a {
+    font-size: 1.1em;
+    color: black;
+  }
+}
+
+main.center {
+  flex-grow: 1;
   display: flex;
   align-items: center;
+}
+
+main.contact {
+  > div {
+    flex-grow: 1;
+  }
+}
+
+.video-list {
+width: 100%;
+}
+
+.video-list-item {
+  width: 100%;
+  margin: 10px 0;
+  height: 400px;
+  max-height: 100%;
+  background-color: green;
+  display: flex;
   justify-content: center;
   flex-direction: column;
-  span {
-    color: white;
-    text-decoration: none;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  .icon {
+    width: 100%;
+    flex-grow: 5;
     display: flex;
-    flex-grow: 1;
+    justify-content: center;
     align-items: center;
+  }
+  .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    height: 25%;
+  }
+  span {
+    text-decoration: none;
+    align-items: center;
+    font-weight: 500;
+    font-size: 2.3em;
+  }
+  hr {
+    width: 70px;
+    text-align: left;
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
   }
   img {
     width: 100%;
     position: relative;
+  }
+  .play {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iSWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+CiAgPHRpdGxlPnBsYXk8L3RpdGxlPgogIDxwb2x5Z29uIHBvaW50cz0iOTIuNTAzIDUwIDE3LjUwMyA5My4zMDEgMTcuNTAzIDYuNjk5IDkyLjUwMyA1MCIgc3R5bGU9ImZpbGw6IG5vbmU7c3Ryb2tlOiAjZmZmO3N0cm9rZS1taXRlcmxpbWl0OiAxMDtzdHJva2Utd2lkdGg6IDJweCIvPgo8L3N2Zz4K");
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    &:hover{
+      background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iSWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+CiAgPHRpdGxlPnBsYXktZmlsbGVkPC90aXRsZT4KICA8cG9seWdvbiBwb2ludHM9IjkyLjUwMyA1MCAxNy41MDMgOTMuMzAxIDE3LjUwMyA2LjY5OSA5Mi41MDMgNTAiIHN0eWxlPSJmaWxsOiAjZmZmO3N0cm9rZTogI2ZmZjtzdHJva2UtbWl0ZXJsaW1pdDogMTA7c3Ryb2tlLXdpZHRoOiAycHgiLz4KPC9zdmc+Cg==");
+    }
   }
 }

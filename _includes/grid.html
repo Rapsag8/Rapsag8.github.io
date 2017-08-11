@@ -1,8 +1,15 @@
-<div class="video-grid">
+<div class="video-list">
 {% for video in site.data.videos %}
-  <a href="{{ video.url }}" class="video-grid-item">
-    <img src="{{ video.thumbnail }}" alt="" />
-    <span>{{ video.name }}</span>
-  </a>
+  {% if include.all or video.home %}
+  <div href="{{ video.url }}" class="video-list-item" style="background-image: url('{{ video.thumbnail }}')">
+    <div class="icon">
+      <button class="play"></button>
+    </div>
+    <div class="bottom">
+      <span>{{ video.name }}</span>
+      <hr/>
+    </div>
+  </div>
+  {% endif %}
 {% endfor %}
 </div>
