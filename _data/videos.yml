@@ -1,10 +1,18 @@
-- name: Reel (temp)
+- name: Bande Démo
   url: https://vimeo.com/173744588
   home: true
 
+- name: Rêverie 
+  url: https://www.youtube.com/watch?v=PU6wzwoQIWE&t=6s
+  home: true
+
+- name: Fenêtre à Double Face
+  url: https://youtu.be/PU6wzwoQIWE
+  
+- name: Partie de Ping Pong
+  url: https://youtu.be/xy0HQS4p1dY
+  
 - name: Pandora's Street
   url: https://vimeo.com/173744588
   thumbnail: https://i.vimeocdn.com/video/580279540.webp?mw=2400&mh=1090&q=70
-
-- name: Rêverie (temp)
-  url: https://www.youtube.com/watch?v=PU6wzwoQIWE&t=6s
+  home: true
