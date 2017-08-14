@@ -10,7 +10,10 @@
     <header>
       <a href="/"><h1>GASPAR PALACIO</h1></a>
       <nav>
-        <a href="/films">Films</a>
+        <a href="/films"{% if page.permalink == '/films' %}class="active"{% endif %}>Films</a>
+        <a href="/montages"{% if page.permalink == '/montages' %}class="active"{% endif %}>Montages</a>
+        <a href="/about"{% if page.permalink == '/about' %}class="active"{% endif %}>About</a>
+        <a href="/contact"{% if page.permalink == '/contact' %}class="active"{% endif %}>Contact</a>
       </nav>
     </header>
     {{ content }}
