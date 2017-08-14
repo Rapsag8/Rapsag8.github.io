@@ -14,3 +14,11 @@
   url: https://vimeo.com/173744588
   thumbnail: https://i.vimeocdn.com/video/580279540.webp?mw=2400&mh=1090&q=70
   pages: ['home', 'films']
+  
+- name: Au Jardin du Temps Passé
+  url: https://www.youtube.com/watch?v=SE8w9DvaVMg
+  pages: ['montages']
+
+- name: Horlà
+  url: https://youtu.be/X0BN_PHgPmM
+  pages: ['montages']
