@@ -143,3 +143,16 @@ width: 100%;
     }
   }
 }
+
+.about {
+  display: flex;
+  .photo {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  p {
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+}
