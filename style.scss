@@ -86,6 +86,7 @@ width: 100%;
 }
 
 .video-list-item {
+  overflow: hidden;
   width: $width;
   height: $width/2;
   margin: 10px auto;
