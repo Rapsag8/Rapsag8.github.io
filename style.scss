@@ -108,6 +108,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
   }
   .bottom {
     display: flex;
@@ -127,7 +128,7 @@ width: 100%;
     padding-bottom: 5px;
     border-bottom: 2px solid #fff;
   }
-  img {
+  video {
     width: 100%;
     position: relative;
   }

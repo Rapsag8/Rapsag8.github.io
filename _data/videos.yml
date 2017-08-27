@@ -5,24 +5,29 @@
 - name: Fenêtre à Double Face
   url: https://youtu.be/PU6wzwoQIWE
   thumbnail: /static/videos/thumbs/fenetre.jpg
+  mini: /static/videos/mini/fenetre.mp4
   pages: ['films']
 
 - name: Partie de Ping Pong
   url: https://youtu.be/xy0HQS4p1dY
   thumbnail: /static/videos/thumbs/ping-pong.jpg
+  mini: /static/videos/mini/ping-pong.mp4
   pages: ['films']
 
 - name: Pandora's Street
   url: https://vimeo.com/173744588
   thumbnail: /static/videos/thumbs/pandoras-street.jpg
+  mini: /static/videos/mini/pandoras-street.mp4
   pages: ['home', 'films']
 
 - name: Au Jardin du Temps Passé
   url: https://www.youtube.com/watch?v=SE8w9DvaVMg
   thumbnail: /static/videos/thumbs/jardin.jpg
+  mini: /static/videos/mini/jardin.mp4
   pages: ['montages']
 
 - name: Horlà
   url: https://youtu.be/X0BN_PHgPmM
   thumbnail: /static/videos/thumbs/horla.jpg
+  mini: /static/videos/mini/horla.mp4
   pages: ['montages']

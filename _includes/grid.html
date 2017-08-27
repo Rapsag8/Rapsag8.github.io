@@ -1,7 +1,23 @@
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.video-list-item').each(function() {
+    $(this).hover(
+      function() {
+        $(this).children('video')[0].play();
+      },
+      function() {
+        var video = $(this).children('video')[0];
+        video.load();
+      }
+    );
+  });
+});
+</script>
 <div class="video-list">
 {% for video in site.data.videos %}
   {% if video.pages contains include.page %}
   <a href="{{ video.url }}" class="video-list-item" style="background-image: url('{{ video.thumbnail }}')">
+    <video src="{{ video.mini }}" loop poster="{{ video.thumbnail }}"></video>
     <div class="icon">
       <button class="play"></button>
     </div>
