@@ -1,5 +1,7 @@
 - name: Rêverie
   url: https://www.youtube.com/watch?v=PU6wzwoQIWE&t=6s
+  thumbnail: /static/videos/thumbs/reverie.jpg
+  mini: /static/videos/mini/reverie.mp4
   pages: ['home', 'films']
 
 - name: Fenêtre à Double Face
