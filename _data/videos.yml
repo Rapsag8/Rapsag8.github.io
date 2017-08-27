@@ -1,5 +1,5 @@
 - name: Rêverie
-  url: https://youtu.be/FikoxSM2iQs
+  url: https://www.youtube.com/watch?v=FikoxSM2iQs&feature=youtu.be
   thumbnail: /static/videos/thumbs/reverie.jpg
   mini: /static/videos/mini/reverie.mp4
   pages: ['home', 'films']
