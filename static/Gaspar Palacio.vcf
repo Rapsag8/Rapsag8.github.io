@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.12.6//EN
+N:Palacio;Gaspar;;;
+FN:Gaspar Palacio
+EMAIL;type=INTERNET;type=HOME;type=pref:gaspar.p@hotmail.fr
+TEL;type=CELL;type=VOICE;type=pref:0686685573
+item1.URL;type=pref:http://www.gasparpalacio.com/
+item1.X-ABLabel:_$!<HomePage>!$_
+UID:7d95808c-328a-43d0-ae6a-00706e3e3fc2
+X-ABUID:7D95808C-328A-43D0-AE6A-00706E3E3FC2:ABPerson
+END:VCARD
