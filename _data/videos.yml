@@ -2,7 +2,7 @@
   url: https://vimeo.com/232464070
   thumbnail: /static/videos/thumbs/reverie.jpg
   mini: /static/videos/mini/reverie.mp4
-  pages: ['home', 'films']
+  pages: ['films']
 
 - name: Fenêtre à Double Face
   url: https://youtu.be/PU6wzwoQIWE
@@ -20,7 +20,7 @@
   url: https://vimeo.com/173744588
   thumbnail: /static/videos/thumbs/pandoras-street.jpg
   mini: /static/videos/mini/pandoras-street.mp4
-  pages: ['home', 'films']
+  pages: ['films']
 
 - name: Au Jardin du Temps Passé
   url: https://www.youtube.com/watch?v=SE8w9DvaVMg
@@ -33,3 +33,8 @@
   thumbnail: /static/videos/thumbs/horla.jpg
   mini: /static/videos/mini/horla.mp4
   pages: ['montages']
+
+- name: H.B.
+  url: https://vimeo.com/242573626
+  thumbnail: /static/videos/thumbs/HB.png
+  pages: ['home','films']
