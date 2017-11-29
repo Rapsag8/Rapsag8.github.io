@@ -1,6 +1,7 @@
 - name: H.B.
   url: https://vimeo.com/242573626
   thumbnail: /static/videos/thumbs/HB.png
+  mni: /static/videos/mini/HB.mp4
   pages: ['home','films']
 
 - name: Rêverie
