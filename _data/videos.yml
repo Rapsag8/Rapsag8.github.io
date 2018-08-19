@@ -10,6 +10,11 @@
   mini: /static/videos/mini/reverie.mp4
   pages: ['films']
 
+- name: L'Étranger
+  url: https://vimeo.com/277088763
+  thumbnail: /static/videos/thumbs/étranger.png
+  pages: ['home','montages']
+  
 - name: Fenêtre à Double Face
   url: https://youtu.be/PU6wzwoQIWE
   thumbnail: /static/videos/thumbs/fenetre.jpg
@@ -39,3 +44,4 @@
   thumbnail: /static/videos/thumbs/horla.jpg
   mini: /static/videos/mini/horla.mp4
   pages: ['montages']
+
