@@ -12,7 +12,7 @@
 
 - name: L'Étranger
   url: https://vimeo.com/277088763
-  thumbnail: /static/videos/thumbs/etranger.png
+  thumbnail: /static/videos/thumbs/etranger.jpg
   pages: ['home','montages']
   
 - name: Fenêtre à Double Face
