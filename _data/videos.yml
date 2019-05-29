@@ -19,6 +19,10 @@
   url: https://vimeo.com/324834632
   thumbnail: /static/videos/thumbs/8mm.jpg
   pages: ['home','films']
+  
+- name: Élégie du dernier instant
+  url: https://vimeo.com/336541117/248fc14938
+  pages: ['home','films']
 
 - name: Pandora's Street
   url: https://vimeo.com/173744588
