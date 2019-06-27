@@ -22,6 +22,7 @@
   
 - name: Élégie du dernier instant
   url: https://vimeo.com/341762789
+  thumbnail: /static/videos/thumbs/Capture d’écran 2019-06-27 à 21.31.30.png
   pages: ['home','films']
 
 - name: Pandora's Street
