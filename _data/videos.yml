@@ -3,6 +3,11 @@
   thumbnail: /static/videos/thumbs/HB Thumbnail.jpg
   mini: /static/videos/mini/HB.mp4
   pages: ['home','films']
+  
+- name: Brume Insensée
+  url: https://vimeo.com/382020390
+  thumbnail: /static/videos/thumbs/thumb brume.jpg
+  pages: ['homes','films']
 
 - name: Rêverie
   url: https://vimeo.com/232464070
