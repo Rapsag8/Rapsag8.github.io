@@ -7,7 +7,7 @@
 - name: Brume Insensée
   url: https://vimeo.com/382020390
   thumbnail: /static/videos/thumbs/thumb brume.jpg
-  pages: ['homes','films']
+  pages: ['home','films']
 
 - name: Rêverie
   url: https://vimeo.com/232464070
