@@ -1,7 +1,22 @@
+- name: Danser sur les vagues
+  url: https://vimeo.com/874429026?share=copy
+  thumbnail: /static/videos/thumbs/DSLV.jpg
+  pages: ['home','films']
+
 - name: H.B.
   url: https://vimeo.com/242573626
   thumbnail: /static/videos/thumbs/HB Thumbnail.jpg
   mini: /static/videos/mini/HB.mp4
+  pages: ['home','films']
+
+- name: Élégie du dernier instant
+  url: https://vimeo.com/341762789
+  thumbnail: /static/videos/thumbs/elegie thumb.png
+  pages: ['home','films']
+    
+- name: 8mm
+  url: https://vimeo.com/324834632
+  thumbnail: /static/videos/thumbs/8mm.jpg
   pages: ['home','films']
   
 - name: Brume Insensée
@@ -19,16 +34,6 @@
   url: https://vimeo.com/277088763
   thumbnail: /static/videos/thumbs/etranger.jpg
   pages: ['home','montages']
-  
-- name: 8mm
-  url: https://vimeo.com/324834632
-  thumbnail: /static/videos/thumbs/8mm.jpg
-  pages: ['home','films']
-  
-- name: Élégie du dernier instant
-  url: https://vimeo.com/341762789
-  thumbnail: /static/videos/thumbs/elegie thumb.png
-  pages: ['home','films']
 
 - name: Pandora's Street
   url: https://vimeo.com/173744588
